@@ -1,0 +1,197 @@
+----------------------------
+  V3.0.2 Beta - TEST2
+----------------------------
+
+----------------------------
+  V3.0.1 Beta - TEST1
+----------------------------
+
+----------------------------
+  V2.025 RC14R - Repack 9
+----------------------------
+
+Kernel
+*Code optimization.
+*Correction of some errors in the TENSOR core
+
+Interfaze UI
+*Color correction in the Performance tab,
+within the System settings section
+
+LauncherOTA
+*Fixed and Code optimization.
+
+
+----------------------------
+  V2.025 RC12 - Repack 8
+----------------------------
+
+Kernel
+*Mayor Bug's FIX Core's Kernel
+*Bug's FIX TENSOR
+
+Interfaze UI
+*Rollback mode black to normal to ver RC9 WebUI 2.0
+
+LauncherOTA
+*Fixed LauncherOTA Code Update crypto.
+
+
+----------------------------
+  V2.025 RC11 - Repack 7
+----------------------------
+
+Kernel
+*Mayor Bug's FIX Core's Kernel
+
+----------------------------
+  V2.025 RC10 - Repack 6
+----------------------------
+
+Kernel
+* Version number: v2.025
+* Updated version Kernel: RC10
+* Minor bugs fix
+* Add BIOS_S v0.1
+* Add Core B Sub Services in subservice
+- By Dev GMS
+
+
+Interfaze UI
+* Updated version WEBUI: v2.2.5
+* Minor bugs fix
+* BlackMode UI
+- By Dev Nayeli and Dev Kenai
+
+
+----------------------------
+  V2.025 RC9 - Repack 5
+----------------------------
+
+* Updated LauncherOTA version number: v2.012RC8
+* Updated version number: v2.025
+* Updated version Kernel: RC9
+* Updated version Sub Kernel: v3.1.8b
+* Updated version WEBUI: v2.1.9
+
+*System startup
+ the subservices were disabled internally,
+ to enable them, you need to enter the command
+ -disable_subservice=false in the start.sh file
+ or, if using a start.bat file, in the start.bat file.
+ 
+*Cluster services
+ Disabled IoT related APIs and scanner internally,
+ to enable them, you need to enter the command
+ -allow_iot=true in the start.sh file
+ or, if using a start.bat file, in the start.bat file.
+
+*hardware or interfaces
+ the subservices Skip mdadm reload config
+ during startup, might result in werid RAID device
+ ID in some Linux distro disabled internally,
+ to enable them, you need to enter the command
+ -skip_mdadm_reload=true in the start.sh file
+ or, if using a start.bat file, in the start.bat file.
+ 
+*Fixed language error in the Update section 
+*Fixed Media server transcoder 1080p
+
+*Fixed Internal structure
+ and improvement of language translations,Dev:
+ Nayeli & Kenai.
+
+
+----------------------------
+  V2.025 RC8 - Repack 4
+----------------------------
+
+* Updated version number: v2.025
+* Updated version Kernel: RC8
+* Updated version Sub Kernel: v3.1.7
+* Updated version WEBUI: v2.1.8
+
+* All modules fixed
+* Fix some errors Kernel
+* Fix some errors Sub Kernel TENSOR
+* Added Repo. Offcial Link in Launcher Terminal
+* Added support Subservices modules
+* Added Suppot Desktop animated Wallpapers
+* Fix Global volume to 100% initial
+* Added Folders Wallpapers Gif
+
+* Added update instructions to the footer
+- of the WebKeyOS NAS update tab
+  
+* Improvements and optimization
+- of the internal file system
+  
+* Change of structure in WebPackUI file,
+- from webui.tar.gz to webui.tar.gz
+ 
+* Web Applications removed:
+- Clock
+- Neuro RED
+- UnitTest
+- GAUDIKA PRO
+
+* Added WebApp info update
+- By Dev GMS
+
+* Some icons have been fixed and replaced.
+- By Dev GMS
+
+* Added WebApp Snake Game
+- By Dev Yumik0 - Fix FloatWindows by GMS
+
+* Fixed WebApp Dino Game
+- By Dev Yumik0
+
+* Fixed addAndRemove.html
+- By Dev Yumik0
+ 
+* Translation sections repaired and added
+- By Dev Kenai
+
+* Fixed storage.json.example
+- By Dev GMS
+
+* Fixed update.json
+- By Dev GMS
+
+* Fixed Update section
+- Show actual version
+- Show online version
+
+* Added support for webp thumbnail generation
+
+* Added personal homepage localization
+- Added location
+- Added hash state for system setting
+
+* Added TFTP server
+- Added basic TFTP server function
+- Added user list API without icon
+- Added more utils for GET parameters
+
+* Replaced .system with .html file extension
+- Deprecated the use of .system file extension
+- Updated tftp icon in system settings
+
+* Fixed TFTP UI bug
+
+* Photo app compression feature
+- Added photo app compress file serve feature
+  to reduce load time for large photo files
+
+* Added AGI zip library and improve image loading UX
+
+* Renamed AGI code to match filename style
+
+* Updated zooming behavior on Photo app mobile
+
+* Fixed login redirection bug
+- Fixed redirection bug
+- Fix and Cleanup AGI
+
+* Added edit feature to embed photo viewer
